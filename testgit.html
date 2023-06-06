@@ -1,31 +1,45 @@
-archivo test git 
-emmanuel campos genaro
-27 anios
-es cto de smartsite company
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica git</title>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <h1>Practica git</h1>
+</head>
+<body>
+    <p>Agregue parrafo para probar commit desde git</p>
+    <p>archivo test git 
+      emmanuel campos genaro
+      27 anios
+      es cto de smartsite company
+      </p>
+    <p>Parrafo para hacer pruebas de git</p>
+    <p>Parrafo rama hotfix</p>
+    <div id="parrafo-css">
+        <p>Pruebas en estilo CSS</p>
+        <p>Parrafo1</p>
+        <p>Parrafo2</p>
+        <p id="parrafo-codigo">Mientras yo iba creando codigo aqui</p>
+    </div>
+    <div id="div-prueba">
+        <p>Aqui va un div de prueba para trabajo simultaneo</p>
+    </div> 
+    <div id="footer">
+        <p>Esto es mi footer con cambios de fondo</p>
+    </div>
+    <div id="footer2">
+        <p>copyright SSCo </p>
+
+    </div>
+</body>
+</html>
+
 
 codigo test
 /*
  * Author: Emmanuel Campos Genaro
  */
-
-
-#include <xc.h>
-#include <util/delay.h>
-#define F_CPU 1000000UL
-int main()
-{
-   char salida;
-  
-   DDRA =1;
-   salida =0;
-   while (1)
-   {
-      PORTA =1;
-      _delay_ms(500);
-      PORTA =0;
-      _delay_ms(500);
-      if (salida!=0) break;
-   }
-
-   return 0;
-}
